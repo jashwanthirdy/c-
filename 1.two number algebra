@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int num1,num2;
+    cout<<"Enter two integers: ";
+    cin>>num1>>num2;
+    int addition=num1+num2;
+    int subraction=num1-num2;
+    int multiplication=num1*num2;
+    int division=num1/num2;
+    int modulo=num1%num2;
+    cout<<"Addition: "<<addition<<endl;
+    cout<<"Subraction: "<<subraction<<endl;
+    cout<<"Multiplication: "<<multiplication<<endl;
+    cout<<"Division: "<<division<<endl;
+    cout<<"Modulo: "<<modulo<<endl;
+    return 0;
+}
